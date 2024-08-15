@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin-right: 10rem;
+    margin-left: 10rem;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  .header {
+    background-color: #1ABC9C;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+  }
+  
+  .header h1 {
+    font-size: 2.5rem;
+  }
+  
+  .header p {
+    font-size: 1rem;
+}
+  
+  .header img {
+    margin-top: 1rem;
+  }
+  .cta-form {
+    margin-top: 20px;
+  }
+  
+  .cta-form input[type="email"] {
+    padding: 10px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    width: 250px;
+    margin-bottom: 1rem;
+  }
+  
+  .cta-form button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #212326;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .features {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 20px;
+    background-color: white;
+  }
+
+  img {
+    margin: 0;
+  }
+
+  .FeatureHeader {
+    text-align: center;
+  }
+
+  .feature {
+    text-align: justify;
+    max-width: 300px;
+  }
+  
+  .feature img {
+    width: 60px;
+    margin-bottom: 20px;
+  }
+  
+  .testimonial {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #ECF0F1;
+  }
+  
+  .testimonial blockquote {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .testimonial cite {
+    display: block;
+    font-size: 1rem;
+    margin-bottom: 20px;
+  }
+  
+  .faq {
+    padding: 50px 20px;
+    background-color: white;
+  }
+  
+  .faq h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .faq details {
+    margin-bottom: 10px;
+  }
+  
+  .footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #2C3E50;
+    color: white;
+  }
+  
+  .footer a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+  }
